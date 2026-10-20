@@ -1,6 +1,10 @@
 <?php
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ReportController;
+use App\Http\Controllers\PosController;
  
 Route::get('/login', [LoginController::class, 'create'])
     ->middleware('guest')
